@@ -21,6 +21,7 @@ class DataIngestionConfig:
     raw_data_path :str = os.path.join('artifacts',"stud.csv")
 
 class DataIngestion:
+
     def __init__(self):
         self.ingestion_config = DataIngestionConfig()
 
@@ -28,7 +29,7 @@ class DataIngestion:
         logging.info("Entered the data ingestion or component")
 
         try:
-            df = pd.read_csv('C:\mlproject\MachineLearningProject\Notebook\data\stud.csv')
+            df = pd.read_csv(r'C:\mlproject\MachineLearningProject\Notebook\data\stud.csv',encoding ='unicode_escape')
             logging.info("Read the dataset as dataframe")
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
@@ -54,16 +55,11 @@ class DataIngestion:
 
 if __name__ == "__main__":
     obj = DataIngestion()
-    train_data,test_data = obj.initiate_data_ingestion
+    train_data, test_data = obj.initiate_data_ingestion()  
+
 
     data_transformation = DataTransformation()
-    train_arr,test_arr = data_transformation.initiate_data_transformation(train_data,test_data)
+    train_arr,test_arr,_ = data_transformation.initiate_data_transformation(train_data,test_data)
 
     model_trainer = ModelTrainer()
-    print(model_trainer.initiate_data_transformation(train_arr,test_arr))
-
-
-
-            
-        
-
+    print(model_trainer.initiate_model_trainer(train_arr,test_arr))

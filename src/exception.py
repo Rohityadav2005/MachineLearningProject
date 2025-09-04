@@ -8,7 +8,7 @@ def error_message_details(error,error_detail :sys):
     error_msg = str(error)
 
     error_message = "The error file name is [{0}],the error line number is [{1}],the error message is [{2}]".format(file_name,line_num,error_msg)
-
+    return error_message
 
 class CustomException(Exception):
     def __init__(self,error_message,error_details:sys):
