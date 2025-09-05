@@ -1,0 +1,16 @@
+[ 2025-09-05 23:11:36,857 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-09-05 23:11:36,860 ] 97 werkzeug - INFO -  * Debugger PIN: 137-617-892
+[ 2025-09-05 23:11:48,710 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:11:48] "GET / HTTP/1.1" 200 -
+[ 2025-09-05 23:11:48,751 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:11:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-09-05 23:11:55,542 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:11:55] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-09-05 23:11:55,562 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:11:55] "[33mGET /static/index.css HTTP/1.1[0m" 404 -
+[ 2025-09-05 23:23:32,765 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:23:32] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-09-05 23:23:32,787 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:23:32] "[33mGET /static/index.css HTTP/1.1[0m" 404 -
+[ 2025-09-05 23:23:32,964 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:23:32] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-09-05 23:23:32,979 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:23:32] "[33mGET /static/index.css HTTP/1.1[0m" 404 -
+[ 2025-09-05 23:26:54,116 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:26:54] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-09-05 23:26:54,132 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:26:54] "[33mGET /static/index.css HTTP/1.1[0m" 404 -
+[ 2025-09-05 23:28:10,426 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:28:10] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-09-05 23:28:10,449 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:28:10] "[33mGET /static/index.css HTTP/1.1[0m" 404 -
+[ 2025-09-05 23:29:03,762 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:29:03] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-09-05 23:29:03,779 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 23:29:03] "[33mGET /static/index.css HTTP/1.1[0m" 404 -
