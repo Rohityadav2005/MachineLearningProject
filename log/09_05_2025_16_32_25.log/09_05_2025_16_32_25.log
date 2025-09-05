@@ -1,0 +1,7 @@
+[ 2025-09-05 16:32:25,837 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-09-05 16:32:25,838 ] 97 werkzeug - INFO -  * Debugger PIN: 137-617-892
+[ 2025-09-05 16:32:37,395 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 16:32:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-09-05 16:32:37,686 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 16:32:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-09-05 16:32:37,692 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 16:32:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-09-05 16:32:37,728 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 16:32:37] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=R42XWU0S2cNZrVEe92gi HTTP/1.1" 200 -
+[ 2025-09-05 16:33:05,493 ] 97 werkzeug - INFO -  * Detected change in 'C:\\mlproject\\MachineLearningProject\\app.py', reloading

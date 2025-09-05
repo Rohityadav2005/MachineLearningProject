@@ -1,0 +1,44 @@
+[ 2025-09-05 16:21:49,391 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+[ 2025-09-05 16:21:49,391 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-09-05 16:25:37,494 ] 875 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\rohit\miniconda3\envs\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\miniconda3\envs\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\miniconda3\envs\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\miniconda3\envs\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mlproject\MachineLearningProject\app.py", line 14, in index
+    return render_templates('index.html')
+           ^^^^^^^^^^^^^^^^
+NameError: name 'render_templates' is not defined
+[ 2025-09-05 16:25:37,498 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 16:25:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-09-05 16:25:37,535 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 16:25:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-09-05 16:26:47,060 ] 875 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\rohit\miniconda3\envs\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\miniconda3\envs\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\miniconda3\envs\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\miniconda3\envs\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mlproject\MachineLearningProject\app.py", line 14, in index
+    return render_templates('index.html')
+           ^^^^^^^^^^^^^^^^
+NameError: name 'render_templates' is not defined
+[ 2025-09-05 16:26:47,063 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 16:26:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
