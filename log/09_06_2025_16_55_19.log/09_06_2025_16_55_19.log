@@ -1,0 +1,10 @@
+[ 2025-09-06 16:55:19,428 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-09-06 16:55:19,430 ] 97 werkzeug - INFO -  * Debugger PIN: 137-617-892
+[ 2025-09-06 16:55:23,567 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Sep/2025 16:55:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-09-06 16:55:25,063 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Sep/2025 16:55:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-09-06 16:55:25,167 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Sep/2025 16:55:25] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-09-06 16:55:25,168 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Sep/2025 16:55:25] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-09-06 16:55:25,203 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Sep/2025 16:55:25] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=HOC1M9ADnZTJfU5mYex1 HTTP/1.1" 200 -
+[ 2025-09-06 16:56:37,510 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Sep/2025 16:56:37] "GET / HTTP/1.1" 200 -
+[ 2025-09-06 16:56:42,852 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Sep/2025 16:56:42] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-09-06 16:56:57,205 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Sep/2025 16:56:57] "GET / HTTP/1.1" 200 -
